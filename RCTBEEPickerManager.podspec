@@ -5,11 +5,11 @@ package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 Pod::Spec.new do |s|
 
   s.name           = 'RCTBEEPickerManager'
-  s.version        = package['version'].gsub(/v|-beta/, '')
-  s.summary        = package['description']
-  s.author         = package['author']
-  s.license        = package['license']
-  s.homepage       = package['homepage']
+  s.version        = '1.0'
+  s.summary        = 'picker'
+  s.author         = 'yhll'
+  s.license        = 'MIT'
+  s.homepage       = 'test.js'
   s.source         = { :git => 'https://github.com/yhll/react-native-picker.git'}
   s.platform       = :ios, '7.0'
   s.preserve_paths = '*.js'
